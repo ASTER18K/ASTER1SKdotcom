@@ -1,1 +1,0 @@
-# ASTER1SKdotcom
