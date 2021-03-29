@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,6 +7,16 @@
       @font-face {
         font-family: "Applesandol";
         src: url("./AppleSDGothicNeoL00-09.otf");
+
+        font-family: "syn";
+        src: url("./Syncopate-Regular.ttf");
+      }
+
+      .first {
+        font-family: syn;
+        color: white;
+        text-align: center;
+        font-size: 5em;
       }
 
       p {
@@ -13,36 +24,88 @@
         color: white;
         text-align: center;
       }
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .blog {
+        font-family: syn;
+        color: white;
+        text-align: center;
+        font-size: 3em;
+        text-decoration: none;
+      }
+
+      .github {
+        font-family: syn;
+        color: white;
+        text-align: center;
+        font-size: 3em;
+        text-decoration: none;
+      }
+
+      form {
+        font-family: syn;
+        color: white;
+        text-align: center;
+      }
+
+      p2 {
+        font-family: syn;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+      }
     </style>
   </head>
   <body bgcolor="black">
-    <img
-      src="./ASTERISK.jpg"
-      alt="ASTERISK"
-      style="margin-left: auto; margin-right: auto; display: block;
-      width="50%"
-      height="50%"
-    />
+    <br />
+    <div class="first">
+      <p1>A S T E R 1 S K</p1>
+    </div>
     <br />
     <p>Click where you want</p>
+    <p>원하는 위치를 클릭하시오.</p>
     <br />
-    <p>원하시는 곳을 클릭하세요<p>
+    <div class="blog">
+      <a href="https://aster1sk.tistory.com/">B L O G</a><br /><br />
+    </div>
+    <div class="github">
+      <a href="https://github.com/ASTER18K">G I T H U B</a>
+    </div>
     <br />
-    <a href="https://aster1sk.tistory.com/"
-      ><img
-        src="./BLOG.PNG"
-        alt="blog"
-        style="margin-left: auto; margin-right: auto; display: block"
-        width="30%"
-        height="30%" /></a
-    ><br />
-    <a href="https://github.com/ASTER18K"
-      ><img
-        src="./GITHUB.PNG"
-        alt="github"
-        style="margin-left: auto; margin-right: auto; display: block"
-        width="30%"
-        height="30%"
-    /></a>
+    <br />
+    <br />
+    <form action="#">
+      <p2>ID</p2>
+      <br />
+      <input
+        type="id"
+        name="ID"
+        required
+        placeholder="ADMIN only"
+        style="font-family: syn"
+      />
+      <br />
+      <br />
+      <p2>PWD</p2>
+      <br />
+      <input
+        type="pwd"
+        name="PWD"
+        required
+        placeholder="ADMIN only"
+        style="font-family: syn"
+      />
+      <br />
+      <br />
+      <input
+        type="submit"
+        value="GET THE ECSTASY!"
+        style="font-family: syn; color: white; background-color: black"
+      />
+    </form>
   </body>
 </html>
