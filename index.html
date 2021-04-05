@@ -31,7 +31,7 @@
         height: 100%;
         z-index: -1;
         overflow: -moz-hidden-unscrollable;
-        object-fit: fill;
+        object-fit: cover;
       }
 
       .first {
@@ -84,10 +84,8 @@
     <video
       id="video"
       preload="auto"
-      autoplay="true"
-      loop="loop"
+      video autoplay loop
       muted="muted"
-      volume="0"
     >
       <source src="./background.mp4" />
     </video>
@@ -117,7 +115,7 @@
       <p2>ID</p2>
       <br />
       <input
-        type="id"
+        type="text"
         name="ID"
         required
         placeholder="ADMIN only"
@@ -128,7 +126,7 @@
       <p2>PWD</p2>
       <br />
       <input
-        type="pwd"
+        type="password"
         name="PWD"
         required
         placeholder="ADMIN only"
