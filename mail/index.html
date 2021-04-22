@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Email 신청</title>
+  </head>
+  <body>
+    <h1>mail.aster1sk.com</h1>
+    <hr />
+    <p>
+      mail.aster1sk.com 도메인으로 이메일 사용을 원하시면 아래의 양식에 맞게
+      작성 후 제출 바랍니다.
+    </p>
+    <br />
+    <p>ASTER1SK 메일은 다음 스마트워크 서비스를 이용하고 있습니다.</p>
+    <br>
+    <p>2틀 내에 확인을 거쳐 신청결과를 알려드리겠습니다.</p>
+    <form method="post" action="formtest.php">
+      <table width="414">
+        <tr>
+          <td
+            align="center"
+            height="50"
+            width="408"
+            bgcolor="#FFFFFF"
+            bordercolor="#FFFFFF"
+            colspan="2"
+          >
+            <b><font size="2"> 신청서 </font></b>
+          </td>
+        </tr>
+        <tr>
+          <td align="center" height="22" width="90" bgcolor="#7481AB">
+            <font color="#FFFFFF">이름</font>
+          </td>
+          <td width="316">
+            <input
+              type="text"
+              name="name"
+              maxlength="35"
+              style="height: 20; width: 160"
+              size="35"
+            />
+          </td>
+        </tr>
+          <td align="center" height="22" width="90" bgcolor="#7481AB">
+            <font color="#FFFFFF"> 아이디 </font>
+          </td>
+          <td width="316">
+            <input
+              type="text"
+              name="email"
+              maxlength="35"
+              style="height: 20; width: 160"
+              size="35"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td align="center" height="22" width="90" bgcolor="#7481AB">
+            <font color="#FFFFFF">연락처 (휴대전화, 카톡아이디 등등) </font>
+          </td>
+          <td width="316">
+            <input
+              type="text"
+              name="subject"
+              maxlength="60"
+              style="height: 20; width: 316"
+              size="60"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td height="172" bgcolor="#7481AB">
+            <p align="center"><font color="#FFFFFF">추가내용</font></p>
+          </td>
+
+          <td height="172">
+            <textarea name="content" rows="13" cols="49"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td align="center" height="50" colspan="2">
+            <input type="submit" value="입 력" style="width=100;height:24px" />
+            <input type="reset" value="취  소" style="width=100;height:24px" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
